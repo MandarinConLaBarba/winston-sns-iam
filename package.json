@@ -1,0 +1,17 @@
+{
+    "name" : "winston-sns-iam",
+    "description" : "An SNS transport that works with or without explicitly passed AWS credentials. If no credentials provided, the EC2 metadata service is called to obtain temporary IAM role-based credentials",
+    "keywords" : ["winston", "SNS", "IAM", "AWS"],
+    "version" : "0.0.1",
+    "dependencies" : {
+        "winston" : "0.6.x",
+        "aws-lib" : "0.2.x",
+        "underscore" : "1.4.x"
+    },
+    "devDependencies" :
+    {
+        "mocha" : "1.8.1",
+        "should" : "1.1.0",
+        "sinon" : "*"
+    }
+}
